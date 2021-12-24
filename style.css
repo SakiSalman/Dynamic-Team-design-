@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins', sans-serif;
+}
+img{
+     max-width: 100%;
+}
+.header{
+     display: flex;
+     background-color: #ddd;
+     padding: 0 50px;
+
+}
+.header .log-area{
+     width: 20%;
+}
+
+.header .log-area img{
+     width: 150px;
+}
+.header .menu-area{
+     width: 80%;
+}
+.header .menu-area ul{
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-bottom: 0;
+     height: 100%;
+     list-style: none;
+}
+.header .menu-area ul li a{
+     color: rgb(3, 3, 3);
+     text-decoration: none;
+     font-weight: bold;
+}
+/* header css end */
+
+/* service section */
+
+section.service{
+padding: 100px 30px;
+
+}
+.service-heading{
+     text-align: center;
+}
+.service-heading h1{
+     font-size: 50px;
+     padding: 50px 0;
+     color: #ff7979;
+     position: relative;
+}
+.service-heading h1::before {
+     content: "";
+     width: 100px;
+     height: 5px;
+     background-color: aquamarine;
+     position: absolute;
+     bottom: 26%;
+     left: 47%;
+ }
+.service-item-container{
+     width: 1300px;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+}
+section .service-item-container .team-wrap {
+     width: 32%;
+     padding: 50px 50px;
+     box-sizing: border-box;
+     text-align: center;
+     border: 1px solid #ddd;
+     margin-right: 1%;
+     box-shadow: -1px 5px 6px 1px #c5c5c591;
+     border-radius: 10px;
+     margin-bottom: 30px;
+ }
+.service-item-container .team-wrap .team-imaage {
+     margin: auto;
+     width: 110px;
+     height: 110px;
+     overflow: hidden;
+     border: 1px solid;
+     border-radius: 50%;
+     box-shadow: -1px 3px 6px 3px #bdbdbd8f;
+
+ }
+.service-item-container .team-wrap .team-imaage img{
+     border-radius: 50%;
+}
+.service-item-container .team-wrap h2{
+     color: #6ab04c;
+     margin-top: 10px;
+}
+.team-wrap .skill{
+     padding: 5px 0;
+     font-size: 15px;
+     color: #30336b;
+     font-weight: bold;
+     margin-bottom: 0;
+}
+.team-wrap p{
+     padding: 10px 0;
+     font-size: 15px;
+     color: #414142;
+     font-weight: semi-bold;
+     font-size: 13px;
+}
+
+/* service section end */
+
+/* student */
+.studen{
+     background-color: rgba(253, 248, 248, 0.867);
+     padding: 100px 0;
+}
+
+.body tr{
+     padding: 50x 0 !important;
+}
+
+/* student */
